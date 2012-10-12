@@ -13,7 +13,7 @@
     }
      
     public void doGet(HttpServletRequest request, HttpServletResponse response)
-    	throws ioexception, ServletException
+    	throws IOException, ServletException
     {
 	    response.setContentType("text/html");
 	    printwriter writer = response.getWriter();
