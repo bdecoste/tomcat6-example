@@ -16,7 +16,7 @@
     	throws IOException, ServletException
     {
 	    response.setContentType("text/html");
-	    printwriter writer = response.getWriter();
+	    PrintWriter writer = response.getWriter();
 	    writer.println("<html>");
 	    writer.println("<head>");
 	    writer.println("<title>Sample Application Servlet Page</title>");
